@@ -7,22 +7,22 @@ class Clients extends Component{
 			      <div className="row">
 			        <div className="col-md-3 col-sm-6">
 			          <a href="#">
-			            <img className="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="" />
+			            <img className="img-fluid d-block mx-auto" src={require('./../assets/img/logos/envato.jpg')} alt="" />
 			          </a>
 			        </div>
 			        <div className="col-md-3 col-sm-6">
 			          <a href="#">
-			            <img className="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="" />
+			            <img className="img-fluid d-block mx-auto" src={require('./../assets/img/logos/designmodo.jpg')} alt="" />
 			          </a>
 			        </div>
 			        <div className="col-md-3 col-sm-6">
 			          <a href="#">
-			            <img className="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="" />
+			            <img className="img-fluid d-block mx-auto" src={require('./../assets/img/logos/themeforest.jpg')} alt="" />
 			          </a>
 			        </div>
 			        <div className="col-md-3 col-sm-6">
 			          <a href="#">
-			            <img className="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="" />
+			            <img className="img-fluid d-block mx-auto" src={require('./../assets/img/logos/creative-market.jpg')} alt="" />
 			          </a>
 			        </div>
 			      </div>

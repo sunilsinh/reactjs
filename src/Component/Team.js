@@ -1,7 +1,4 @@
 import React,{Component} from 'react';
-import team1 from './../assets/img/team/1.jpg';
-import team2 from './../assets/img/team/2.jpg';
-import team3 from './../assets/img/team/3.jpg';
 
 class Team extends Component{
 	render(){
@@ -17,7 +14,7 @@ class Team extends Component{
       <div className="row">
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src={team1} alt="" />
+            <img className="mx-auto rounded-circle" src={require('./../assets/img/team/1.jpg')} alt="" />
             <h4>Kay Garland</h4>
             <p className="text-muted">Lead Designer</p>
             <ul className="list-inline social-buttons">
@@ -41,7 +38,7 @@ class Team extends Component{
         </div>
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src={team2} alt="" />
+            <img className="mx-auto rounded-circle" src={require('./../assets/img/team/2.jpg')} alt="" />
             <h4>Larry Parker</h4>
             <p className="text-muted">Lead Marketer</p>
             <ul className="list-inline social-buttons">
@@ -65,7 +62,7 @@ class Team extends Component{
         </div>
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src={team3} alt="" />
+            <img className="mx-auto rounded-circle" src={require('./../assets/img/team/3.jpg')} alt="" />
             <h4>Diana Pertersen</h4>
             <p className="text-muted">Lead Developer</p>
             <ul className="list-inline social-buttons">

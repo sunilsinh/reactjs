@@ -1,10 +1,4 @@
 import React,{Component} from 'react';
-import thumbnail01 from './../assets/img/portfolio/01thumbnail.jpg';
-import thumbnail02 from './../assets/img/portfolio/02thumbnail.jpg';
-import thumbnail03 from './../assets/img/portfolio/03thumbnail.jpg';
-import thumbnail04 from './../assets/img/portfolio/04thumbnail.jpg';
-import thumbnail05 from './../assets/img/portfolio/05thumbnail.jpg';
-import thumbnail06 from './../assets/img/portfolio/06thumbnail.jpg';
 
 class Portfolio extends Component{
 	render(){
@@ -25,7 +19,7 @@ class Portfolio extends Component{
                 <i className="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img className="img-fluid" src={thumbnail01} alt="" />
+            <img className="img-fluid" src={require('./../assets/img/portfolio/01thumbnail.jpg')} alt="" />
           </a>
           <div className="portfolio-caption">
             <h4>Threads</h4>
@@ -39,7 +33,7 @@ class Portfolio extends Component{
                 <i className="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img className="img-fluid" src={thumbnail02} alt="" />
+            <img className="img-fluid" src={require('./../assets/img/portfolio/02thumbnail.jpg')} alt="" />
           </a>
           <div className="portfolio-caption">
             <h4>Explore</h4>
@@ -53,7 +47,7 @@ class Portfolio extends Component{
                 <i className="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img className="img-fluid" src={thumbnail03} alt="" />
+            <img className="img-fluid" src={require('./../assets/img/portfolio/03thumbnail.jpg')} alt="" />
           </a>
           <div className="portfolio-caption">
             <h4>Finish</h4>
@@ -67,7 +61,7 @@ class Portfolio extends Component{
                 <i className="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img className="img-fluid" src={thumbnail04} alt="" />
+            <img className="img-fluid" src={require('./../assets/img/portfolio/04thumbnail.jpg')} alt="" />
           </a>
           <div className="portfolio-caption">
             <h4>Lines</h4>
@@ -81,7 +75,7 @@ class Portfolio extends Component{
                 <i className="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img className="img-fluid" src={thumbnail05} alt="" />
+            <img className="img-fluid" src={require('./../assets/img/portfolio/05thumbnail.jpg')} alt="" />
           </a>
           <div className="portfolio-caption">
             <h4>Southwest</h4>
@@ -95,7 +89,7 @@ class Portfolio extends Component{
                 <i className="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img className="img-fluid" src={thumbnail06} alt="" />
+            <img className="img-fluid" src={require('./../assets/img/portfolio/06thumbnail.jpg')} alt="" />
           </a>
           <div className="portfolio-caption">
             <h4>Window</h4>

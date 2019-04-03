@@ -1,10 +1,4 @@
 import React, {Component} from 'react';
-import about1 from './../assets/img/about/1.jpg';
-import about2 from './../assets/img/about/2.jpg';
-import about3 from './../assets/img/about/3.jpg';
-import about4 from './../assets/img/about/4.jpg';
-
-
 class About extends Component {
 	render(){
 		return(
@@ -22,7 +16,7 @@ class About extends Component {
           <ul className="timeline">
             <li>
               <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src={about1} alt="" />
+                <img className="rounded-circle img-fluid" src={require('./../assets/img/about/1.jpg')} alt="" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
@@ -36,7 +30,7 @@ class About extends Component {
             </li>
             <li className="timeline-inverted">
               <div className="timeline-image">
-                <img className="rounded-circle img-fluid"  src={about2} alt="" />
+                <img className="rounded-circle img-fluid"  src={require('./../assets/img/about/2.jpg')} alt="" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
@@ -50,7 +44,7 @@ class About extends Component {
             </li>
             <li>
               <div className="timeline-image">
-                <img className="rounded-circle img-fluid"  src={about3} alt="" />
+                <img className="rounded-circle img-fluid"  src={require('./../assets/img/about/3.jpg')} alt="" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
@@ -64,7 +58,7 @@ class About extends Component {
             </li>
             <li className="timeline-inverted">
               <div className="timeline-image">
-                <img className="rounded-circle img-fluid"  src={about4} alt="" />
+                <img className="rounded-circle img-fluid"  src={require('./../assets/img/about/4.jpg')} alt="" />
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
