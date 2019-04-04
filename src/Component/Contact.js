@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
-
+import Header from './Header';
+import Footer from './Footer';
 class Contact extends Component{
 
 	render(){
 		return (
+			<div>
+    		<Header />
 			<section id="contact">
 			    <div className="container">
 			      <div className="row">
@@ -14,7 +17,7 @@ class Contact extends Component{
 			      </div>
 			      <div className="row">
 			        <div className="col-lg-12">
-			          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+			          <form id="contactForm" name="sentMessage">
 			            <div className="row">
 			              <div className="col-md-6">
 			                <div className="form-group">
@@ -47,6 +50,8 @@ class Contact extends Component{
 			      </div>
 			    </div>
 			  </section>
+			   <Footer />
+			  </div>
 			)
 	}
 }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class Footer extends Component{
 	render(){
@@ -12,29 +13,29 @@ class Footer extends Component{
         <div className="col-md-4">
           <ul className="list-inline social-buttons">
             <li className="list-inline-item">
-              <a href="#">
+               <Link to="/">
                 <i className="fab fa-twitter"></i>
-              </a>
+               </Link>
             </li>
             <li className="list-inline-item">
-              <a href="#">
+             <Link to="/">
                 <i className="fab fa-facebook-f"></i>
-              </a>
+              </Link>
             </li>
             <li className="list-inline-item">
-              <a href="#">
+               <Link to="/">
                 <i className="fab fa-linkedin-in"></i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         <div className="col-md-4">
           <ul className="list-inline quicklinks">
             <li className="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <Link to="/">Privacy Policy</Link>
             </li>
             <li className="list-inline-item">
-              <a href="#">Terms of Use</a>
+               <Link to="/">Terms of Use</Link>
             </li>
           </ul>
         </div>

@@ -1,9 +1,11 @@
 import React,{Component} from 'react';
-
+import Header from './Header';
+import Footer from './Footer';
 class Service extends Component {
 	render(){
 		return(
-			  	
+			<div>
+    <Header />
   <section id="services">
     <div className="container">
       <div className="row">
@@ -40,6 +42,8 @@ class Service extends Component {
       </div>
     </div>
   </section>
+   <Footer />
+  </div>
 
 			)
 	}

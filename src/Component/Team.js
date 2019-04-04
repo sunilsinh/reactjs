@@ -1,8 +1,13 @@
 import React,{Component} from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import {Link} from 'react-router-dom';
 
 class Team extends Component{
 	render(){
 		return(
+        <div>
+      <Header />
 				<section className="bg-light" id="team">
     <div className="container">
       <div className="row">
@@ -19,19 +24,19 @@ class Team extends Component{
             <p className="text-muted">Lead Designer</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#">
+                <Link to="/">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                 <Link to="">
                   <i className="fab fa-facebook-f"></i>
-                </a>
+               </Link>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+              <Link to="">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -43,19 +48,19 @@ class Team extends Component{
             <p className="text-muted">Lead Marketer</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#">
+                <Link to="">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+               <Link to="">
                   <i className="fab fa-facebook-f"></i>
-                </a>
+                 </Link>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <Link to="">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -67,19 +72,19 @@ class Team extends Component{
             <p className="text-muted">Lead Developer</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#">
+                 <Link to="">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                <Link to="">
                   <i className="fab fa-facebook-f"></i>
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="#">
+                 <Link to="">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -92,6 +97,8 @@ class Team extends Component{
       </div>
     </div>
   </section>
+    <Footer />
+  </div>
 
 			)
 	}

@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import Header from './Header';
+import Footer from './Footer';
 class About extends Component {
 	render(){
 		return(
-
-			<section id="about">
+    <div>
+    <Header />
+	  <section id="about">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
@@ -72,7 +75,7 @@ class About extends Component {
             </li>
             <li className="timeline-inverted">
              <div className="timeline-image">
-             <h4 /> Be Part <br />Of Our <br />Story!
+             <h4> Be Part Of OurStory!</h4>
              </div>
             </li>
           </ul>
@@ -80,7 +83,9 @@ class About extends Component {
       </div>
     </div>
   </section>
-			)
+  <Footer />
+  </div>
+	)
 	}
 }
 

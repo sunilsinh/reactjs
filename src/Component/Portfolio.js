@@ -1,8 +1,11 @@
 import React,{Component} from 'react';
-
+import Header from './Header';
+import Footer from './Footer';
 class Portfolio extends Component{
 	render(){
 		return(
+        <div>
+    <Header />
 				<section className="bg-light" id="portfolio">
     <div className="container">
       <div className="row">
@@ -99,6 +102,8 @@ class Portfolio extends Component{
       </div>
     </div>
   </section>
+   <Footer />
+  </div>
   
 
 			)
